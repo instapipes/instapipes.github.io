@@ -59,6 +59,53 @@
 
   
     
+    <h3 class="article-title"><a href="/2018/11/07/Civil3D-NET-API-Chapter2/"><span></span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2018/11/07/Civil3D-NET-API-Chapter2/" rel="bookmark">
+        <time class="entry-date published" datetime="2018-11-07T14:46:13.333Z">
+          2018-11-07
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <h1 id="Civil3D-NET-API-讲解-第二章"><a href="#Civil3D-NET-API-讲解-第二章" class="headerlink" title="Civil3D .NET API 讲解 第二章"></a>Civil3D .NET API 讲解 第二章</h1><p>第二章主要简单讲了root object （也就是CivilDocument）以及Style和Setting的概念与操作。</p>
+<p>视频在这里：</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+
+  <article>
+
+  
+    
     <h3 class="article-title"><a href="/2018/11/03/Civil3D-NET-API/"><span></span></a></h3>
     
   
@@ -80,6 +127,13 @@
     <div class="entry">
       
         <h1 id="准备录制讲解Civil3D-NET-API-二次开发的系列视频"><a href="#准备录制讲解Civil3D-NET-API-二次开发的系列视频" class="headerlink" title="准备录制讲解Civil3D .NET API 二次开发的系列视频"></a>准备录制讲解Civil3D .NET API 二次开发的系列视频</h1><p>一直想做点事情，正好有点时间，准备在接下去的几个星期里，把Civil3D .NET API的官方文档录制视频讲解一遍。<br>一个是因为官方文档是英文的，另一个原因是文档也有部分语焉不详，通过视频讲解一下就容易理解一点吧。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">     public void ReadForTypeHackFixDecimal()</span><br><span class="line">        &#123;</span><br><span class="line">            IList&lt;decimal&gt; d1 = new List&lt;decimal&gt; &#123; 1.1m &#125;;</span><br><span class="line">****</span><br><span class="line">            string json = JsonConvert.SerializeObject(d1);</span><br><span class="line">_</span><br><span class="line">            IList&lt;decimal&gt; d2 = JsonConvert.DeserializeObject&lt;IList&lt;decimal&gt;&gt;(json);</span><br><span class="line"></span><br><span class="line">            Assert.AreEqual(d1.Count, d2.Count);</span><br><span class="line">            Assert.AreEqual(d1[0], d2[0]);_</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>fdas</li>
+<li>2 fjla</li>
+<li>23243</li>
+<li></li>
+</ol>
 <p><img src="https://ws1.sinaimg.cn/large/744a7619gy1fwuy4w5ul8j20fg0k0jtk.jpg" alt=""></p>
 
       
